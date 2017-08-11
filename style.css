@@ -1,0 +1,24 @@
+/*
+	These are the custom css styles for the Guerrilla Youtube Video plugin.
+	If you'd like to customize these css codes, I would recommend copying
+	the codes below into your theme's stylesheet and editing the codes
+	as you see fit. Need help? email: hi@madebyguerrilla.com
+*/
+
+.video-container {
+	height: 0;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
